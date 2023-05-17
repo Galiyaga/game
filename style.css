@@ -2,3 +2,39 @@
     height: 100vh;
     font-family: 'Open Sans', monospace;
 }
+
+
+.card {
+    background-color: rgb(168, 220, 221);
+}
+
+.card-header {
+    background-color: rgb(130, 162, 162);
+
+} 
+
+.card-header p {
+    background-color: rgb(168, 220, 221);
+    color: black;
+    border: 1px solid rgb(95, 120, 120);
+    border-radius: 4px;
+}
+
+#btnLess #btnOver {
+    background-color: rgb(86, 86, 176);
+}
+
+#btnEqual {
+    background-color: rgb(147, 220, 163);
+}
+
+.card-footer {
+    background-color: rgb(130, 162, 162)
+}
+
+#btnRetry {
+    background-color: rgb(168, 220, 221);
+    color: black;
+    border: 1px solid rgb(95, 120, 120);
+    text-decoration: none;
+}
