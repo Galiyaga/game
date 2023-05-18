@@ -3,7 +3,6 @@
     font-family: 'Open Sans', monospace;
 }
 
-
 .card {
     background-color: rgb(168, 220, 221);
 }
@@ -14,13 +13,12 @@
 } 
 
 .card-header p {
-    background-color: rgb(168, 220, 221);
     color: black;
     border: 1px solid rgb(95, 120, 120);
     border-radius: 4px;
 }
 
-#btnLess #btnOver {
+.btn btn-info {
     background-color: rgb(86, 86, 176);
 }
 
@@ -32,9 +30,14 @@
     background-color: rgb(130, 162, 162)
 }
 
-#btnRetry {
+ .btn {
     background-color: rgb(168, 220, 221);
     color: black;
     border: 1px solid rgb(95, 120, 120);
-    text-decoration: none;
+    margin-bottom: 2px;
+}
+
+.form-control {
+    margin-top: 5px;
+    margin-bottom: 2px;
 }
